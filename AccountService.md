@@ -15,7 +15,7 @@ Scope:
 User/Actors:
   Primary user(s)/system(s): Transaction Service contact
   
-User Stories (3-5)
+User Stories (3-5):
   US-1: As a new customer, I want to be able to create an account so I can start transacting.
   US-2: As a customer, I want to be able to deposit and withdraw money from my account.
   US-3: As a customer, I want to be able to view a statement of my recent transactions.
