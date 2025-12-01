@@ -1,4 +1,4 @@
-# Title: Requirements Summary
+# Requirements Summary
 
 ## Purpose
 A backend for a digital bank that handles customer accounts, processes transactions, and supports future growth.
