@@ -1,4 +1,4 @@
-# Requirements Summary
+# Title: Requirements Summary
 
 ## Purpose
 A backend for a digital bank that handles customer accounts, processes transactions, and supports future growth.
@@ -6,19 +6,23 @@ A backend for a digital bank that handles customer accounts, processes transacti
 ## Scope
 
 ### In-scope
-- Creating and managing accounts  
-- Processing deposits and withdrawals  
-- Generating account statements  
-- Sending notifications about account activity  
+- Creating customer accounts
+- Getting account details by ID
+- Updating accounts info (like email or status)  
+- Searching accounts
+- Finding if the accounts exist for other services 
 
 ### Out-of-scope
 - User interface  
 - User authentication and login  
-- Handling loans, credit cards, and investments  
+- Deposits or withdrawals (TransactionService)
+- Making statements (StatementService)
+- Sending notifications (NotificationService)
 
 ## User/Actors
 
-**Primary user(s)/system(s):** Transaction Service contact
+- TransactionService
+- StatementService
 
 ## User Stories
 
